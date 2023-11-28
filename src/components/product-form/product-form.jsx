@@ -25,8 +25,6 @@ const ProductForm = ({ onSubmit }) => {
     })
   }
 
-  // create a function to validate the form and if form is valid then call the onSubmit function
-
   const validateForm = () => {
     const errors = {}
 
@@ -53,7 +51,6 @@ const ProductForm = ({ onSubmit }) => {
     }
 
     onSubmit(product)
-    console.log('entro')
     setProduct(DEFAULT_PRODUCT_STATE)
   }
 
